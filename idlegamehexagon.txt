@@ -1,0 +1,58 @@
+Let's make a game!
+  name:Hexagon Clicker
+  author:TCI
+  by:Trinity Mudgeman
+  desc:An idle game that has hexagons.
+  created:01/01/2024
+  updated:15/02/2024
+  version:0.0.1
+
+Resources
+  *hexagon
+    name:Hexagon
+    desc:Favorite Six-Sided Shape.
+
+Buildings
+  *dot
+    name:Dot
+    desc:A small circle
+    cost:15 hexagons
+    on tick:give 1 dot
+
+  *line
+    name:Line
+    desc:A line for all things 2D
+    cost:100 hexagons
+    on tick:give 1 line
+
+  *triangle
+    name:Triangle
+    desc:A triangle to add that 120 degrees in the hexagon
+    cost:500 hexagons
+    on tick:give 1 triangle
+
+  *square
+    name:Square
+    desc:Be there or be 4 sided
+    cost:1234 hexagons
+    on tick:give 1 square
+
+  *pentagon
+    name:Pentagon
+    desc:not the government building
+    cost:10000 hexagons
+    on tick:give 1 pentagon
+
+Achievement
+  *hex
+    name:A hexagon is the bestagon!
+    desc:You click a hexagon once. good for you bestagon.
+    req: 1 hexagon:clicks
+
+Shinies
+  *hexamus
+    name:Hexamus
+    on click:yield (random(10,100)) gold
+    movement:anywhere fade bounce moveRandom
+    frequency:120
+
