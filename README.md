@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @tylerpod16 (he/him)
+- 👋 Hi, I’m @tylerpod16 (he/they)
 
 - 🇺🇦
 <!---
